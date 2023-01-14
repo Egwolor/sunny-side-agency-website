@@ -109,14 +109,14 @@ h1{
     right: 0;
     margin: auto;
     width:4vw;
-    animation: direction 2s ease-in-out infinite;
+    animation: bounce 2s ease-in-out infinite;
 }
-@keyframes direction {
+@keyframes bounce {
     0% , 100%{
         top:20vw;
     }
     50%{
-       top: 22vw;
+       top: 25vw;
     }
     
 }
@@ -480,14 +480,14 @@ q , .client p{
     .arrow-img{
         top:54vh;
         width:8vw;
-        animation: direction 2s ease-in-out infinite;
+        animation: bounce 2s ease-in-out infinite;
     }
-    @keyframes direction {
+    @keyframes bounce {
         0% , 100%{
             top:54vh;
         }
         50%{
-           top: 56vh;
+           top: 60vh;
         } 
         
     }
