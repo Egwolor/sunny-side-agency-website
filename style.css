@@ -60,14 +60,23 @@ body {
 }
 .logo-img{
     width:15vw;
+    height:5vw;
+    margin-top: 1.5vh;
+
 }
 ul{ 
     list-style-type: none;
+    margin-right:2vw ;
 }
 li  {
     display:inline;
-    margin:2vw;
+    margin:4vw;
     transition: .5s;
+}
+li:nth-child(2){
+    margin-right:-1vw;
+
+
 }
 li button{
     background-color: transparent;
@@ -411,12 +420,14 @@ q , .client p{
     .menu-btn{
         display:block;
         font-size: 3rem;
+        font-weight: 700;
         cursor: pointer;
-        color:var(--White)
+        color:var(--White);
     }
     .logo-img{
-        height:3vh;
-        margin-top: 2.5vh;
+        width:40vw;
+        height:10vw;
+        margin-top: 3.5vh;
     }
     .nav-items{
         position: fixed;
