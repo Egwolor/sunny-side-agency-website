@@ -58,7 +58,10 @@ body {
 .nav-items{
     display: block;
 }
-ul{
+.logo-img{
+    width:15vw;
+}
+ul{ 
     list-style-type: none;
 }
 li  {
@@ -165,7 +168,7 @@ h2{
 }
 article p{
     color: var(--Very-dark-grayish-blue);
-    font-size: 1.5vw;
+    font-size: 1ex;
     opacity: 70%;
     line-height: 1.5;
 }
@@ -286,7 +289,7 @@ q , .client p{
 }
 .client h4{
     font-family: 'Fraunces'; 
-    font-size: 1.5vw;
+    font-size: 1.5vw; 
 }
 .emily-img{
     background-image: url('images/image-emily.jpg');
